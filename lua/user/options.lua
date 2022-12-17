@@ -41,3 +41,8 @@ vim.opt.whichwrap:append("<,>,[,],h,l")         -- keys allowed to move to the p
 vim.opt.iskeyword:append("-")                   -- treats words with `-` as single words
 vim.opt.formatoptions:remove({ "c", "r", "o" }) -- This is a sequence of letters which describes how automatic formatting is to be done
 vim.opt.linebreak = true
+
+-- Create a keybinding to run chatgpt
+-- LOL I asked chatgpt to give me this command
+ vim.api.nvim_set_keymap("n", "<leader>r", "<cmd>ChatGPT<CR>", {noremap = true, silent =
+true})
