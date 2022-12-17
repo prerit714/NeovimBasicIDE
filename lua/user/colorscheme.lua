@@ -2,8 +2,8 @@ local colorscheme = "tokyonight"
 local config_status_ok, nvim_tree_config = pcall(require, "tokyonight")
 
 nvim_tree_config.setup({
-  style = "night",
-  transparent = true
+  style = "moon",
+  transparent = false
 })
 
 local status_ok_for_colorscheme, _ = pcall(vim.cmd, "colorscheme " .. colorscheme)
