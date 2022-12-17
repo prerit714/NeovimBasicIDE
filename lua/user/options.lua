@@ -44,5 +44,4 @@ vim.opt.linebreak = true
 
 -- Create a keybinding to run chatgpt
 -- LOL I asked chatgpt to give me this command
- vim.api.nvim_set_keymap("n", "<leader>r", "<cmd>ChatGPT<CR>", {noremap = true, silent =
-true})
+ vim.api.nvim_set_keymap("n", "<leader>q", "<cmd>ChatGPT<CR>", {noremap = true, silent = true})
