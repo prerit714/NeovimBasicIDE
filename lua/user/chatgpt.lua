@@ -1,4 +1,4 @@
-local status_ok, chatgpt = pcall(require, "chatgpt")
+local status_ok, _ = pcall(require, "chatgpt")
 if not status_ok then
-  return
+	return
 end
