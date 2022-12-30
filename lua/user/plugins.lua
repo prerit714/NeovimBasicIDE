@@ -117,6 +117,12 @@ return packer.startup(function(use)
 		},
 	})
 
+	-- Setup for rustc
+	use({
+		"simrat39/rust-tools.nvim",
+		commit = "99fd1238c6068d0637df30b6cee9a264334015e9",
+	})
+
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins
 	if PACKER_BOOTSTRAP then
