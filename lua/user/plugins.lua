@@ -123,6 +123,12 @@ return packer.startup(function(use)
 		commit = "99fd1238c6068d0637df30b6cee9a264334015e9",
 	})
 
+	-- Installing float term
+	use({
+		"voldikss/vim-floaterm",
+		commit = "280b34a0760801168a67f952542b6c49292aa5f3",
+	})
+
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins
 	if PACKER_BOOTSTRAP then

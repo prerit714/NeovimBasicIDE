@@ -86,3 +86,8 @@ local chat_gpt_opts = {
 	silent = true,
 }
 keymap("n", "<leader>p", "<cmd>ChatGPT<CR>", chat_gpt_opts)
+
+
+-- FloatTerm configuration
+keymap("n", "<leader>T", ":FloatermNew --name=myfloat --height=0.8 --width=0.72 bash <CR>", opts)
+keymap("t", "<Esc>", "<C-\\><C-n>:q<CR>", opts)
